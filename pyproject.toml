@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "finalproject"
+version = "0.1.0"
+description = ""
+authors = ["Elizaveta Psar <105010678+Psar-Elizaveta@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
